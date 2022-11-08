@@ -1,0 +1,26 @@
+body{
+    background-color: lightblue;
+    color: dimgray;
+    margin-left: 50px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    color: white;
+}
+
+h3{
+    color: white;
+}
+
+figcaption{
+    color: white;
+    text-align-last: auto;
+}
+
+figure{
+    border: 1px white;
+}
+
+
