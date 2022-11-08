@@ -1,7 +1,7 @@
 body{
     background-color: lightblue;
     color: dimgray;
-    margin-left: 50px;
+    margin-left: 125px;
     font-size: large;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -19,8 +19,8 @@ figcaption{
     text-align-last: auto;
 }
 
-figure{
-    border: 1px white;
+.gallery{
+display: grid;
+grid-gap: 15px;
+border-color: black;
 }
-
-
