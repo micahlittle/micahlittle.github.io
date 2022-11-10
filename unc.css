@@ -1,17 +1,22 @@
 body{
     background-color: lightblue;
     color: dimgray;
-    margin-left: 125px;
     font-size: large;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman';
 }
 
 h1{
     color: white;
+    margin-left: 50px;
+}
+p{
+
+    margin-left: 100px;
 }
 
 h3{
     color: white;
+    margin-left: 600px;
 }
 
 figcaption{
@@ -20,7 +25,28 @@ figcaption{
 }
 
 .gallery{
+    border: 5px solid white;
+}
+
+a{
+    cursor: pointer;
+}
+
+a:hover{
+    color: white
+}
+
+a:link{
+    text-decoration: none;
+}
+
+
+
+
+/**
+.gallery{
 display: grid;
 grid-gap: 15px;
 border-color: black;
 }
+
